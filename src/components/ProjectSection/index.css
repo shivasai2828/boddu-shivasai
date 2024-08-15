@@ -1,0 +1,74 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+.nav-box {
+  height: 10vh;
+  width: 90%;
+  max-width: 1150px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  margin-bottom: 20px;
+}
+.logo-img {
+  width: 130px;
+}
+.bg-main {
+  min-height: 90vh;
+  width: 90%;
+  max-width: 1150px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+.success-view {
+  width: 90%;
+  max-width: 1150px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+}
+.failure-img {
+  width: 300px;
+}
+.failure-view-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.select-input {
+  width: 300px;
+  padding: 8px;
+  color: #243a52;
+}
+.more-pr-title {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+}
+.more-pr-title span {
+  color: blueviolet;
+}
+.more-prg-bg {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+.project-p-title {
+  font-size: 45px;
+  font-weight: bold;
+  padding: 20px 0px;
+  letter-spacing: 5px;
+}
+.project-p-description {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px 0px;
+}

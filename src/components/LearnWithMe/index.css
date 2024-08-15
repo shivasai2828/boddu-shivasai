@@ -1,0 +1,23 @@
+.learn-with-me-section {
+  height: 90vh;
+  width: 90%;
+  max-width: 1150px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.learn-with-me-section h1 {
+  color: #102a42;
+  letter-spacing: 3px;
+  padding: 10px 0px;
+  font-weight: bold;
+  font-family: "Anek Devanagari";
+}
+.learn-with-me-section p {
+  font-family: "Anek Devanagari";
+  font-size: 22px;
+  letter-spacing: 3px;
+  text-align: center;
+}
