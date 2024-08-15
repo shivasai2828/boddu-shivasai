@@ -118,7 +118,7 @@ const Home = () => {
                 </li>
                 <li>
                   <a
-                    href="www.linkedin.com/in/shivasai-boddu"
+                    href="https://www.instagram.com/kanna__0728/?igsh=cTh4OWp3c2tlaXhq"
                     target="_blank"
                     className="links"
                     rel="noreferrer"
