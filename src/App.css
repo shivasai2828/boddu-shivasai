@@ -5,6 +5,10 @@
   margin: 0px;
   list-style: none;
   font-family: "Noto Sans";
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
 }
 .lazy-loading-div {
   width: 100vw;

@@ -143,7 +143,7 @@ const Home = () => {
       </div>
       <div
         className="home-projects"
-        style={isDarkMode ? null : { "backgroundColor": "#00171a" }}
+        style={isDarkMode ? null : { backgroundColor: "#00171a" }}
       >
         <h1
           className="projects-title"
@@ -159,9 +159,10 @@ const Home = () => {
             />
           ))}
         </ul>
-        <a href="/Projects">
-          <button className="btn prg-btn">ALL MY PROJECTS</button>
-        </a>
+
+        <button className="btn prg-btn">
+          <a href="/Projects"> ALL MY PROJECTS </a>
+        </button>
       </div>
       <Footer />
     </>

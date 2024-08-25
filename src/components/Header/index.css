@@ -5,7 +5,7 @@
   /* font-family: "Mukta"; */
 }
 .navbar {
-  height: 80px;
+  height: 70px;
   width: 100%;
   max-width: 1200px;
   margin: 0px auto;
@@ -17,6 +17,7 @@
 .navbar-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: 80px;
   width: 95%;
   max-width: 1200px;
@@ -63,7 +64,8 @@
 
 .nav-links:hover {
   border-bottom: 5px solid #52d1da;
-  font-weight: bold;
+
+  transition: all 0.3s linear;
 }
 
 @media screen and (max-width: 960px) {
@@ -118,6 +120,7 @@
   }
   .nav-links:hover {
     background-color: #fff;
+    transition: all 0.3s ease 0s;
   }
 }
 .logo-home {
@@ -145,7 +148,6 @@
 .LightMode {
   background-color: #fff;
   color: #000;
-  font-weight: bold;
 }
 .DarkMode {
   background-color: #222;
