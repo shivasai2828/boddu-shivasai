@@ -5,7 +5,7 @@
   /* font-family: "Mukta"; */
 }
 .navbar {
-  height: 80px;
+  height: 75px;
   width: 100%;
   max-width: 1200px;
   margin: 0px auto;
@@ -63,7 +63,7 @@
 
 .nav-links:hover {
   border-bottom: 5px solid #52d1da;
-  font-weight: bold;
+
 }
 
 @media screen and (max-width: 960px) {
