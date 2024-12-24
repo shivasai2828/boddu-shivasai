@@ -8,6 +8,7 @@ import Contact from "../Contact/Contact";
 import { Link } from "react-router-dom";
 import { ThemeContext } from "../../Context/ThemeContext";
 import userImg from "../../assets/shiva-img-1.jpg";
+import { useNavigate } from "react-router-dom";
 const About = () => {
   const [skillsSet, setSkillsSet] = useState([
     {
@@ -387,7 +388,7 @@ const About = () => {
     },
   ]);
   const { isDarkMode } = useContext(ThemeContext);
-
+  const navigate = useNavigate();
   const skillsSection = () => (
     <div style={isDarkMode ? null : { backgroundColor: "#262626" }}>
       <div className="skills-main">
@@ -477,9 +478,9 @@ const About = () => {
                 to contribute to innovative projects, constantly improve my
                 skills, and grow within a forward-thinking development team.
               </p>
-              <Link to="/Projects">
-                <button className="btn"> Explore More</button>
-              </Link>
+              
+                <button onClick={() => navigate("/Projects") ;} className="btn"> Explore More</button>
+              
             </article>
             <article className="about-img-box">
               <img
