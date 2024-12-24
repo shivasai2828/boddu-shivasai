@@ -63,7 +63,6 @@
 
 .nav-links:hover {
   border-bottom: 5px solid #52d1da;
-
 }
 
 @media screen and (max-width: 960px) {
@@ -99,7 +98,7 @@
     align-items: center;
   }
 
-  .nav-menu.active {
+  .nav-menu.active-cls {
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -159,4 +158,9 @@
 }
 .light-icons {
   color: #fff;
+}
+
+.active {
+  color: #52d1da;
+  border-bottom: 2px solid #52d1da;
 }

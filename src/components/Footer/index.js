@@ -9,22 +9,22 @@ const Footer = (props) => {
       <div className="bg-footer">
         <div className="footer-conter">
           <ul className="footer-links">
-            <li>
+            <li onClick={() => window.scroll(0, 0)}>
               <Link to="/" className="links-footer">
                 Home
               </Link>
             </li>
-            <li>
+            <li onClick={() => window.scroll(0, 0)}>
               <Link to="/about" className="links-footer">
                 About
               </Link>
             </li>
-            <li>
+            <li onClick={() => window.scroll(0, 0)}>
               <Link to="/Projects" className="links-footer">
                 Projects
               </Link>
             </li>
-            <li>
+            <li onClick={() => window.scroll(0, 0)}>
               <Link to="/LearnWithme" className="links-footer">
                 Learn With Me
               </Link>

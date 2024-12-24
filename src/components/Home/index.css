@@ -51,7 +51,7 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   letter-spacing: 2px;
   font-style: italic;
-  margin-bottom: 16px;
+
   text-shadow: 1px 2px 7px #9eb2c7;
   font-size: 55px;
 }
@@ -76,14 +76,17 @@
   color: aqua;
 }
 .btn {
-  padding: 8px;
-  margin-top: 15px;
+  padding: 5px;
+  /* margin-top: 15px; */
   background-color: #0a6c75;
   border: none;
   color: #fff;
   font-size: 20px;
-  letter-spacing: 2px;
+  /* width: 50%; */
   border-radius: 10px;
+}
+.btn:hover {
+  background-color: #102a42;
 }
 @media screen and (max-width: 768px) {
   .btn {

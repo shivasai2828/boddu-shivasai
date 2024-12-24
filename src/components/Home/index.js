@@ -7,7 +7,18 @@ import "./index.css";
 import Header from "../Header";
 import EachProjectHome from "../EachProjectHome";
 import { ThemeContext } from "../../Context/ThemeContext";
+import { useNavigate } from "react-router-dom";
 const ProjectsDeatails = [
+  {
+    id: 0,
+    ProjectName: "Doctor Appointment",
+    ImageUrl:
+      "https://res.cloudinary.com/dhsz1cq0y/image/upload/v1735022724/Screenshot_217_kqjkvi.png",
+    LiveLink: "https://doctor-appointment-zeta.vercel.app/",
+    GitHubUrl: "https://github.com/shivasai2828",
+    TechnologiesUsed: ["React-js", "Node-js", "Express-js", "Mongo-db"],
+    VIEW: "https://doctor-appointment-zeta.vercel.app/",
+  },
   {
     id: 1,
     ProjectName: "JOBBY APP",
@@ -74,7 +85,7 @@ const ProjectsDeatails = [
 const Home = () => {
   const [projectsData, setProjectsData] = useState(ProjectsDeatails);
   const { isDarkMode } = useContext(ThemeContext);
-
+  const navigate = useNavigate();
   return (
     <>
       <Header />
@@ -86,13 +97,16 @@ const Home = () => {
                 className="home-name"
                 style={isDarkMode ? null : { color: "#fff" }}
               >
-                i am Shivasai
+                My Name is{" "}
+                <span style={{ color: "#52d1da", fontWeight: "normal" }}>
+                  Shiva sai
+                </span>
               </h1>
               <p
                 className="home-role"
                 style={isDarkMode ? null : { color: "#bcccdc" }}
               >
-                Frontend Developer
+                Mern stack Developer
               </p>
 
               <ul>
@@ -127,9 +141,14 @@ const Home = () => {
                   </a>
                 </li>
               </ul>
-              <a href="/About">
-                <button className="btn">More About Me</button>
-              </a>
+
+              <button
+                onClick={() => navigate("/About")}
+                className="btn"
+                style={{ width: "50%" }}
+              >
+                More About Me
+              </button>
             </article>
             <article>
               <img
@@ -143,7 +162,7 @@ const Home = () => {
       </div>
       <div
         className="home-projects"
-        style={isDarkMode ? null : { "backgroundColor": "#00171a" }}
+        style={isDarkMode ? null : { backgroundColor: "#00171a" }}
       >
         <h1
           className="projects-title"

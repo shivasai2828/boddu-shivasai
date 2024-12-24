@@ -24,6 +24,16 @@ const apiStatusList = {
 
 const ProjectsDeatails = [
   {
+    id: 0,
+    ProjectName: "Doctor Appointment",
+    ImageUrl:
+      "https://res.cloudinary.com/dhsz1cq0y/image/upload/v1735022724/Screenshot_217_kqjkvi.png",
+    LiveLink: "https://doctor-appointment-zeta.vercel.app/",
+    GitHubUrl: "https://github.com/shivasai2828",
+    TechnologiesUsed: ["React-js", "Node-js", "Express-js", "Mongo-db"],
+    VIEW: "https://doctor-appointment-zeta.vercel.app/",
+  },
+  {
     id: 1,
     ProjectName: "JOBBY APP",
     ImageUrl:
